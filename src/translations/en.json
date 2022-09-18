@@ -1,0 +1,27 @@
+{
+  "game": {
+    "content": {
+      "start": "Start",
+      "highscores_board": "Highscores Board"
+    }
+  },
+  "game_over": {
+    "content": {
+      "game_over": "Game Over",
+      "highscores_board": "Highscores Board",
+      "new_game": "New Game",
+      "incorrect_email_or_password": "Incorrect email or password",
+      "login": "Login",
+      "forgot_your_password": "Forgot your password?"
+    },
+    "game_over_modal": {
+      "content": {
+        "your_score_is": "Your score is",
+        "please_enter_your_name": "Please enter your name",
+        "save": "Save",
+        "your_name_here": "Your Name Here",
+        "player_name_cannot_be_empty": "Player name cannot be empty"
+      }
+    }
+  }
+}
