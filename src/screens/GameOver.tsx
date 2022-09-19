@@ -66,7 +66,6 @@ const GameOver: FC = ({ navigation, route }: any) => {
   }
 
   const onCloseModal = (playerName: string) => {
-    console.log("TYT")
     const playersData: Player[] = [...scoreList, { id: scoreList.length, name: playerName, score }];
     storeData(SCORE_LIST, playersData);
     setScoreList(playersData);

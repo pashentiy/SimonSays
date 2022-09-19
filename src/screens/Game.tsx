@@ -137,7 +137,7 @@ const Game: FC = ({ navigation }: any) => {
     <>
       <View style={styles.wrapper}>
         <View style={styles.header}>
-          <TextButton text={highscores_board} onPress={navigateToHighscore} textStyle={{ alignSelf: 'center', fontSize: 18, fontFamily: 'Cochin' }} ></TextButton>
+          <TextButton text={highscores_board} isDisable={isDisable} onPress={navigateToHighscore} textStyle={{ alignSelf: 'center', fontSize: 18, fontFamily: 'Cochin' }} ></TextButton>
         </View>
         <View style={styles.boardContainer}>
           <GamePads buttonsAnimatedRef={buttonsAnimatedRef} isDisable={isDisable} handlePress={handlePress} isStarted={isStarted} score={score} newGame={newGame} />
